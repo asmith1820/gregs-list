@@ -1,0 +1,134 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-bar {
+	position: fixed;
+	background-color: #ECEBEB;
+	height: 40px;
+	width: 100%;	
+	border-bottom: 1px solid silver;
+	top:0;
+	left:0;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+ul{
+	margin-top: 8px;
+}
+
+.gregs-list {
+	margin-left: -30px;
+	padding-right: 1050px;
+	font-size: 18px;
+	display: inline;
+}
+
+.post {
+	padding-right: 10px;
+	font-size: 18px;
+	display: inline;
+}
+
+.account{
+	font-size: 18px;
+	display: inline;
+}
+
+#logo{
+	color: inherit;
+}
+
+label{
+	display: block;
+	margin-bottom: 6px;
+	font-size: 16px;
+}
+
+.search-bar{
+	position: relative;
+	margin-top: 80px;
+	margin-left: 75px; 
+}
+
+#search-jobs{
+	width: 400px;
+	height:30px;
+	font-size: 16px;
+	border: 1px solid silver;
+	border-radius: 4px;
+}
+.search-button{
+	width: 35px;
+	height: 30px;
+	border: 1px solid silver;
+	border-radius: 4px;
+	vertical-align: bottom;
+	background-color: white;
+}
+.magnifying-glass{
+	height: 100%;
+}
+
+.pages{
+	border: 1px solid silver;
+	border-radius: 4px;
+	height: 40px;
+	width: 300px;
+	margin-top: 40px;
+	margin-left: 75px;
+}
+
+.previous{
+	border-right: 1px solid silver;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: -30px;
+	font-size: 16px;
+	display: inline;
+}
+
+.page-number{
+	border-right: 1px solid silver;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 16px;
+	display: inline;
+}
+
+.next{
+	padding-left: 10px;
+	font-size: 16px;
+	display: inline;
+}
+
+#prev, #next{
+	color: inherit;
+}
+
+.result{
+	list-style: none;
+	color: silver;
+	margin-left: -30px;
+	margin-bottom: 15px;
+}
+
+.result-link{
+	color:blue;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left:10px; 
+	padding-right:10px;
+}
+
+.search-results{
+	margin-top: 40px;
+	margin-left: 70px;
